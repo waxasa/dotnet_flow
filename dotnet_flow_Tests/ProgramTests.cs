@@ -38,5 +38,11 @@ namespace dotnet_flow.Tests
         {
             Assert.AreEqual(21f / 7, dotnet_flow.Program.Minus(21, 7));
         }
+
+        [TestMethod()]
+        public void MinusTest6()
+        {
+            Assert.AreEqual(21f / 7, dotnet_flow.Program.Minus(21, 7));
+        }
     }
 }
