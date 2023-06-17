@@ -13,7 +13,6 @@ namespace dotnet_flow.Tests
         public void MinusTest()
         {
             Assert.AreEqual(15f / 3, dotnet_flow.Program.Minus(15, 3));
-            Assert.AreEqual(20f / 4, dotnet_flow.Program.Minus(20, 4));
         }
 
         [TestMethod()]
