@@ -16,5 +16,10 @@ namespace dotnet_flow
         {
             return (float)a / b;
         }
+
+        public static float Add(int a, int b)
+        {
+            return (float)a + b;
+        }
     }
 }
