@@ -2,7 +2,7 @@ name: .NET Build & Test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ no-main ]
   pull_request:
     branches: [ main ]
 
